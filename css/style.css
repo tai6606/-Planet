@@ -1,0 +1,89 @@
+body{
+  background-image: url(../img/jeremy-perkins-uhjiu8FjnsQ-unsplash.jpg);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: repeat-y;
+  color: white;
+}
+
+.container{
+  width: 1400px;
+  margin: 0px auto;
+}
+
+@media all and (max-width: 1400px){
+  .container{
+    width: 1200px;
+  }
+}
+@media all and (max-width: 1200px){
+  .container{
+    width: 1000px;
+  }
+  .point-javascript input{
+    left: -35px;
+  }
+}
+
+
+
+
+
+.main-flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+img{
+  width: 100%;
+}
+
+
+
+.display-flex{
+  display: flex;
+}
+
+
+.mobile-only{
+  display: none;
+}
+
+@media all and (max-width: 1000px){
+  body{
+    background-image: none;
+    color: black;
+    background-color: #efefef;
+  }
+  .container{
+    width: auto;
+  }
+  .main-flex{
+    display: block;
+  }
+  .main-nav{
+    display: none;
+  }
+  .main-center{
+    width: 100%;
+    margin: 0px auto;
+  }
+  .center-bgc{
+    background-color: #efefef;
+  }
+  .main-right{
+    display: none;
+  }
+  header{
+    margin: 0px;
+  }
+  .mobile-only{
+    display: inline-block;
+    position: absolute;
+    padding-right: 20px;
+    right: 0px;
+    bottom: 0px;
+  }
+
+}

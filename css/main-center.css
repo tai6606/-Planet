@@ -1,0 +1,192 @@
+.main-center{
+  width: 50%;
+}
+
+.center-bgc{
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  padding: 20px;
+}
+
+.center-bgc h2{
+  font-size: 25px;
+  font-weight: bold;
+  padding: 13px 0px 13px 20px;
+  border-left: 7px solid orange;
+  margin-bottom: 25px;
+  background-color: #FEF3B9;
+}
+.center-bgc h3{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+.center-text{
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+
+.center-text span{
+  text-decoration: none;
+  color: #0746AD;
+  font-weight: bold;
+}
+.center-text span:hover{
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.center-point{
+  padding: 20px;
+  border: 2px solid orange;
+  border-radius: 10px;
+  margin-top: 64px;
+  text-align: center;
+}
+.point-css{
+  width: 50%;
+}
+.point-javascript{
+  width: 50%;
+  position: relative;
+}
+.point-block01{
+  margin-top: 30px;
+  display: flex;
+}
+
+
+.btn-point span{
+  display: inline-block;
+  padding: 5px 20px;
+  background-color: red;
+  color: white;
+  border-radius: 13px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+.css-target {
+  width: 100px;
+  height: 100px;
+  margin: 0px auto;
+  margin-top: 20px;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  line-height: 100px;
+  cursor: pointer;
+}
+.css-target:hover{
+  box-shadow: 0 0 10px rgb(0, 0, 167);
+}
+
+
+
+.javascript-target {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin: 0px auto;
+  margin-top: 20px;
+  background-color: blue;
+  color: white;
+  line-height: 100px;
+  transition: 1s;
+}
+
+
+.javascript-hover{
+  border-radius: 50%;
+  transform: rotate(360deg);
+}
+
+
+.point-javascript input{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.point-block02{
+  text-align: center;
+  position: relative;
+}
+.point-click{
+  font-size: 18px;
+  text-align: center;
+  padding: 7px 0px;
+  width: 80px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  position: absolute;
+  top: -60px;
+  left: calc(50% - 40px);
+  user-select: none;
+  box-shadow: 0px 4px 0px rgb(167, 0, 0);
+}
+.point-click-ja:active{
+  box-shadow: 0px 0px 0px transparent;
+  top: -56px;
+}
+.point02-text{
+  margin-top: 100px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+
+
+
+
+
+
+
+.point-block03{
+  text-align: center;
+}
+
+#target03{
+  padding: 15px 0px;
+  font-size: 20px;
+  font-weight: bold;
+}

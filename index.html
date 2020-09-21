@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>聖杯レイアウト</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/main-nav.css">
+  <link rel="stylesheet" href="css/main-center.css">
+  <link rel="stylesheet" href="css/main-right.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <header>
+    <div class="container">
+      
+      <div class="h1-box">
+        <h1>タコの惑星</h1>
+        <p class="mobile-only">※パソコンでの訪問をお勧めします</p>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="container main-flex">
+    <section class="main-nav">
+      <nav>
+        <div class="main-nav-border">
+          <div class="main-nav-item">
+            <h2>宇宙</h2>
+            <ul class="main-nav-list">
+              <li class="main-nav-text">宇宙の誕生</li>
+              <li class="main-nav-text">重力とは何か</li>
+              <li class="main-nav-text">宇宙の膨張</li>
+              <li class="main-nav-text">ビックバン</li>
+            </ul>
+          </div>
+  
+          <div class="main-nav-item">
+            <h2>宇宙に挑んだ偉人</h2>
+            <ul class="main-nav-list">
+              <li class="main-nav-text">ガリレオ・ガリレイ</li>
+              <li class="main-nav-text">ヨハネス・ケプラー</li>
+              <li class="main-nav-text">アインシュタイン</li>
+              <li class="main-nav-text">エドウィン・ハッブル</li>
+            </ul>
+          </div>
+  
+          <div class="main-nav-item">
+            <h2>太陽系</h2>
+            <ul class="main-nav-list">
+              <li class="main-nav-text">地動説と天動説</li>
+              <li class="main-nav-text">距離とスケール</li>
+              <li class="main-nav-text">惑星間物質</li>
+            </ul>
+          </div>
+  
+          <div class="main-nav-item">
+            <h2>自由研究</h2>
+            <ul class="main-nav-list">
+              <li class="main-nav-text">眼鏡で望遠鏡</li>
+              <li class="main-nav-text">真空環境実験</li>
+              <li class="main-nav-text">紙筒ロケット</li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    
+    <section class="main-center">
+      <div class="center-bgc">
+        <div class="center-text-box" style="margin-bottom: 64px;">
+          <h2>この記事について</h2>
+
+          <p class="center-text">
+            この記事はポートフォリオ用のサイトなので、実際に存在するようなものではありません。
+          </p>
+          <p class="center-text">
+            ですが、もしこんなサイトを作りたい方がいたら、<br>
+            <a href="https://mobile.twitter.com/Tai_dandelion" target="_blank"><span>ツイッター</span></a>のDMなどで連絡ください
+          </p>
+          <p class="center-text">
+            実績が欲しいので、急ぎの案件でも柔軟に受けたいと思います
+          </p>
+        </div>
+
+        <div class="center-text-box">
+          <h2>できること</h2>
+
+          <p class="center-text">
+            特に書くこともないので、HTML・CSS・JavaScriptでできることを<br>
+            載せたいと思います
+          </p>
+          <p class="center-text">「あ、それもできる？」ぐらいの感じで見てもらえると嬉しいです</p>
+
+          <div class="center-point">
+            <h3>マウスが乗った時に処理を行う</h3>
+
+            <p class="center-text">この処理はJavaScript・CSSのどちらでもできます</p>
+            <p class="center-text">また、JavaScriptの方が、複雑な処理を組むことが可能です</p>
+
+            <div class="point-block01">
+              <div class="point-css">
+                <p class="btn-point"><span>CSS</span></p>
+                <div class="css-target">hover</div>
+              </div>
+
+              <div class="point-javascript">
+                <p class="btn-point"><span id="javascript-btn">JavaScript</span></p>
+                <div class="javascript-target" id="hover-target">hover</div>
+                <input type="reset" value="リセット" onclick="window.location.reload();">
+              </div>
+            </div>
+          </div>
+
+          <div class="center-point">
+            <h3>乱数を作成する</h3>
+
+            <p class="center-text">指定した範囲から数字をランダムで作り出せます</p>
+            <p class="center-text">応用して使うと、ミニゲームなんかも作ることができます！</p>
+
+            <div class="point-block02">
+              <div class="point-click" id="btn-click">click</div>
+              <p id="target02" class="point02-text">ここの文字が変わります</p>
+            </div>
+          </div>
+
+          <div class="center-point">
+            <h3>現在の時間の取得</h3>
+
+            <p class="center-text">JavaScriptで、今の時間を取得できます</p>
+
+            <p class="center-text">時間さえあれば、ストップウォッチも作ることができます</p>
+
+            <div class="point-block03">
+              <p id="target03"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="main-right">
+      <div>
+        <a class="twitter-timeline" data-height="800" data-theme="dark" href="https://twitter.com/Tai_dandelion?ref_src=twsrc%5Etfw">Tweets by Tai_dandelion</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </section>
+      </div>
+  </main>
+
+  <footer>
+    ©︎2020/タコの惑星
+  </footer>
+
+  <script src="js/main.js"></script>
+</head>
+</body>
+</html>
